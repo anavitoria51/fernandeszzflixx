@@ -1,0 +1,41 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Gupter", serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 1px rgb(175, 117, 158);
+    padding: 20px;
+font-size: 32px;
+color: rgb(175, 117, 158);
+}
+
+.chamada {
+background: rgb(43, 17, 27);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center
+}
+
+.chamada-texto{
+margin-right: 30px;
+
+}
+img{
+height: 300px;
+
+}
+.categorias-videos{
+display: flex;
+overflow-x: auto;
+gap: 10px;
+
+}
+.categoria{
+    padding-left :10px;
+    pedding-right: 10px;
+}
